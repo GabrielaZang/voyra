@@ -147,3 +147,25 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# ========== OS & Vim ==========
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ========== IDE / Editor ==========
+.idea/
+*.iml
+.vscode/
+
+# ========== Spring Boot Java Backend ==========
+target/
+*.class
+*.jar
+*.war
+*.log
+heapdump.hprof
+
+# ========== Secret Env Config ==========
+application-local.yml
